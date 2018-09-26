@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Татьяна Кудрявцева](https://up.htmlacademy.ru/adaptive/15/user/241995).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Соломеин](https://up.htmlacademy.ru/adaptive/15/user/164065).
 
 ---
 
