@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page__logo">
+        <img class="page__logo-image" src="img/logotype-mobile.svg" width="" height="" alt="Логотип приложения Пинк">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="htmlacademy.html">Html Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="page-main__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      <p class="page-main__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните</p>
+
+      <form class="page-main__form form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="form__group form__group--identification">
+          <p>
+            <label for="surname-field">Фамилия:</label>
+            <input id="surname-field" type="text" name="surname" placeholder="Укажите фамилию *" required>
+          </p>
+          <p>
+            <label for="name-field">Имя:</label>
+            <input id="name-field" type="text" name="name" placeholder="Введите ваше имя *" required>
+          </p>
+          <p>
+            <label for="surname-field">Отчество:</label>
+            <input id="patronymic-field" type="text" name="patronymic" placeholder="Ну и отчество тоже">
+          </p>
+        </fieldset>
+        <fieldset class="form__group form__group--achievement">
+          <legend>Ваши безбашенные достижения в путешествии</legend>
+          <ul class="form__list form__list--checkbox">
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="selfie" checked>Сделал селфи с акулой
+              </label>
+            </li>
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="beach" checked>Обгорел на пляже
+              </label>
+            </li>
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="chuck-norris">Видел Чака Норриса
+              </label>
+            </li>
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="souvenir">Накупил сувениров
+              </label>
+            </li>
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="tower" checked>Удержал башню
+              </label>
+            </li>
+            <li class="form__item form__item--checkbox">
+              <label>
+                <input type="checkbox" name="hotel">Разгромил отель
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="form__group form__group--contacts">
+          <p>
+            <label for="phone-field">Номер телефона</label>
+            <input id="phone-field" type="text" name="phone" placeholder="Номер, пожалуйста">
+          </p>
+          <p>
+            <label for="mail-field">Адрес почты</label>
+            <input id="mail-field" type="text" name="mail" placeholder="Введите почту *" required>
+          </p>
+        </fieldset>
+        <fieldset class="form__group form__group--appstore">
+          <legend>С каким приложением путешествовали?</legend>
+          <ul class="form__list form__list--radio">
+            <li class="form__item form__item--radio">
+              <input id="ios-field" type="radio" name="ios" value="ios" checked>
+              <label for="ios-field">Pink для iOS</label>
+            </li>
+            <li class="form__item form__item--radio">
+              <input id="android-field" type="radio" name="android" value="android">
+              <label for="android-field">Pink для Android</label>
+            </li>
+            <li class="form__item form__item--radio">
+              <input id="windows-field" type="radio" name="windows" value="windows">
+              <label for="windows-field">Pink для Phone</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Опишите свои эмоции</legend>
+          <textarea>Можно прям в красках, не стесняясь в выражениях</textarea>
+        </fieldset>
+        <button class="form__button button button--submit" type="submit">Отправить форму</button>
+        <small class="form__legend form__legend--capslock">
+          <sup>*</sup> — обязательные поля
+        </small>
+      </form>
+    </main>
+
+    <section class="page-footer">
+      <a class="page-footer__logo logo-footer" href="https://htmlacademy.ru/intensive/adaptive">
+        <img src="img/logo_footer.svg" width="" height="" alt="Логотип приложения Пинк">
+      </a>
+      <ul class="page-footer__list social">
+        <li class="social__item social__item--twitter">
+          <a class="visually-hidden" href="#">Твитер</a>
+        </li>
+        <li class="social__item social__item--facebook">
+          <a class="visually-hidden" href="#">Фэйсбук</a>
+        </li>
+        <li class="social__item social__item--youtube">
+          <a class="visually-hidden" href="#">Ютуб</a>
+        </li>
+      </ul>
+      <p class="page-footer__copyright copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__logo" href="https://htmlacademy.ru/intensive/adaptive">
+          <img src="img/htmlacademy.svg" width="" height="" alt="Логотип HTML Academy">
+        </a>
+    </section>
+  </body>
+</html>
