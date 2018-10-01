@@ -11,17 +11,17 @@
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
             <a href="index.html">Главная</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a>Фотографии</a>
           </li>
-          <li class="site-list__item site-list__item--active">
+          <li class="main-nav__item main-nav__item--active">
             <a href="form.html">Конкурс</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a href="htmlacademy.html">Html Academy</a>
           </li>
         </ul>
@@ -35,7 +35,7 @@
       <section class="posts">
         <h2 class="visually-hidden">Посты пользователей приложения</h2>
         <ul class="posts__list">
-          <li class="posts__item">
+          <li class="posts__item posts__item--full">
             <blockquote>
               <img src="img/photo-1.jpg" width="" height="" alt="Фото Анны">
               <p class="posts__author">Анна (5 минут назад)</p>
@@ -103,6 +103,9 @@
           <li class="editor__item editor__item--fill"></li>
           <li class="editor__item editor__item--bright"></li>
         </ul>
+        <div class="editor__scale">
+          <div class="editor__bar"></div>
+        </div>
         <button class="editor__button button button--round button--post" type="button">Запостить</button>
         <button class="editor__button button button--round button--cancel" type="button">Запостить</button>
       </section>
